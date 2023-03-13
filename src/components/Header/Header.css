@@ -1,0 +1,56 @@
+/* Style for the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Style for the logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Style for the cart */
+.cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-count {
+  /* background-color: #007bff; */
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+/* Style for the cart icon */
+svg {
+  width: 25px;
+  height: 25px;
+  fill: #000;
+}
